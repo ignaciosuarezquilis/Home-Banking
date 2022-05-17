@@ -1,3 +1,11 @@
 #nav{
-    width: 155px;
+    width: 25%;
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+#navtitle{
+    background-color: black;
+    color:white;
+    text-align: center;
 }
