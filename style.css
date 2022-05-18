@@ -1,6 +1,10 @@
+
 #nav {
   width: 155px;
+  background-color: blueviolet;
+  height: 100vh;
 }
+
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
@@ -15,4 +19,10 @@ main {
   max-height: 100vh;
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+#navtitle{
+    background-color: black;
+    color:white;
+    text-align: center;
 }

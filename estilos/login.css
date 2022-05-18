@@ -1,0 +1,19 @@
+.bg-login{
+    background-image: url(../images/bg-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cartel{
+    background-color: rgba(171, 211, 236, .8);
+    color: #025283;
+}
+
+.login{
+    background-color: #01111A;
+}
+
+.logo-itbank{
+    background-image: url(../images/logo.png);
+}
