@@ -1,5 +1,5 @@
 .bg-login{
-    background-image: url(../images/bg-login.jpg);
+    background-image: url(/login/bg-login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,5 +15,5 @@
 }
 
 .logo-itbank{
-    background-image: url(../images/logo.png);
+    background-image: url(/login/logo.png);
 }
