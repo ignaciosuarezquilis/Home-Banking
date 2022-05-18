@@ -14,6 +14,23 @@
     background-color: #01111A;
 }
 
-.logo-itbank{
-    background-image: url(../images/logo.png);
+.olv-contra{
+    color: #51bbfc;
+    text-decoration: none;
+}
+
+.olv-contra:hover{
+    color: #025588;
+}
+
+.btn-color{
+    background-color: #51BBFC;
+    color: #010305;
+    border: none;
+}
+
+.btn-color:hover{
+    background-color: #01111A;
+    color: #51BBFC;
+    border: none;
 }
