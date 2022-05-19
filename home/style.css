@@ -35,3 +35,9 @@ main {
 .bg-blue{
   background-color: #023758;
 }
+
+#fila-cuentas
+{
+  position: relative;
+  margin: 0;  
+}
