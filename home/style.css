@@ -20,6 +20,14 @@ main {
     text-align: center;
 }
 
+#sidebar{
+  height: 100vh;
+}
+
 #notifications{
-  background-color: black;
+  margin-right: 1.5rem;
+}
+
+.eyes{
+  padding-left: 1rem;
 }
