@@ -32,12 +32,29 @@ main {
   padding-left: 1rem;
 }
 
-.bg-blue{
-  background-color: #023758;
-}
-
 #fila-cuentas
 {
   position: relative;
   margin: 0;  
+}
+
+#encabezado-color
+{
+  background: linear-gradient(to bottom, #02568A, #000000);
+}
+
+#boton-ayuda
+{
+  background-color: whitesmoke;
+  color: #02568A;
+}
+
+ul li
+{
+  margin: 0px 0px 15px 0px;
+}
+
+ul span
+{
+  margin: 0px 0px 0px 15px;
 }
