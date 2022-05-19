@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/login.css">
+    <title>ITBANK - Inicio Sesion</title>
+</head>
+<body>
+    <main class="overflow-hidden">
+        <div class="row">
+            <div class="col-md-5 order-md-1 order-2 bg-login">
+                <div class="m-0 vh-100 row justify-content-center align-items-center">
+                    <article class="col-8 card mt-5 p-3 cartel">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold">¿TODAVIA NO INGRESASTE A TU HOMEBANKING?</h6>
+                            <p class="card-text fw-semibold">SEGUI LOS PASOS Y GESTIONA TU PRODUCTOS</p>
+                        </div>
+                    </article>
+                    <article class="col-8 card p-4 cartel">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold">¿NO TENES CUENTA CON NOSOTROS?</h6>
+                            <p class="card-text fw-semibold">SEGUI LOS PASOS Y ABRI TUS PRODUCTOS</p>
+                        </div>
+                    </article>
+                    <article class="col-8 card p-1 cartel">
+                        <div class="card-body">
+                            <p class="card-text">Tutoriales:</p>
+                            <h6 class="card-title fw-bold">TUS PRIMEROS PASOS EN HOMEBANKING</h6>
+                        </div>
+                    </article>
+                </div>  
+            </div>
+            <div class="col-12 col-md-7 order-md-2 order-1 login vh-100">
+                <div class="container mb-5">
+                   <header class="text-center">
+                       <a href="login.html"><img src="images/logo.png" alt="ITBANK" class="img-fluid mt-5 logo"></a>
+                   </header> 
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <form class="mt-5">
+                            <div class="mb-5 mt-5">
+                                <label for="documento" class="form-label text-info fw-bold">NÚMERO DE DOCUMENTO</label>
+                                <input type="number" class="form-control" id="documento" required>
+                             </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label text-info fw-bold">CONTRASEÑA</label>
+                                <input type="password" class="form-control" id="password">
+                            </div>
+                            <div class="mb-5 form-check">
+                                <input type="checkbox" class="form-check-input" id="recordame">
+                                <label class="form-check-label text-info" for="recordame">Recordar usuario</label>
+                            </div>
+                            <div class="text-center mb-5">
+                                <a href="#" class="olv-contra fw-bold">¿OLVIDASTE TU CONTRASEÑA?</a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="submit" class="btn btn-color px-5 fw-bold">INGRESAR</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>
