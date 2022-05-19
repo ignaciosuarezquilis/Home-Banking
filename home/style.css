@@ -19,3 +19,7 @@ main {
     color:white;
     text-align: center;
 }
+
+#notifications{
+  background-color: black;
+}
