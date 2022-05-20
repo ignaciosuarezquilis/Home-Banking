@@ -71,3 +71,7 @@ ul span
 {
   margin: 0px 0px 0px 15px;
 }
+
+.dropdown-item:hover{
+  background-color: #007bff;
+}
