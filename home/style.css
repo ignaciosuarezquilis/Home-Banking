@@ -1,6 +1,7 @@
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 html {
   height: -webkit-fill-available;
@@ -76,4 +77,21 @@ main {
 .dropdown-item:hover
 {
   background-color: #007bff;
+}
+
+#ultimos-movimientos
+{
+  margin: 15px 0px 15px 15px;
+  max-width: 50%;
+}
+
+.titulo-seccion
+{
+  margin: 30px 0px 15px 15px;
+  color: #02568A;
+}
+
+#ultimos-movimientos tbody
+{
+  background: linear-gradient(to right, #ffffff, #51bafc70)
 }
