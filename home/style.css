@@ -12,34 +12,35 @@ main {
   height: -webkit-fill-available;
   max-height: 100vh;
   overflow-x: auto;
-<<<<<<< Updated upstream
-=======
-  /* overflow-y: hidden; */
->>>>>>> Stashed changes
 }
 
-#navtitle{
-    background-color: black;
-    color:white;
-    text-align: center;
+/* General */
+.titulo-seccion
+{
+  margin: 30px 0px 0px 0px;
+  color: #02568A;
 }
+
+/* Menu Lateral*/
 
 #sidebar{
   height: 100vh;
 }
 
+#menu-lateral li
+{
+  padding: 5px;
+}
+
+#menu-lateral span
+{
+  margin: 0px 0px 0px 15px;
+}
+
+/* Navegador*/
+
 #notifications{
   margin-right: 1.5rem;
-}
-
-.eyes{
-  padding-left: 1rem;
-}
-
-#fila-cuentas
-{
-  position: relative;
-  margin: 0;  
 }
 
 #encabezado-color
@@ -53,7 +54,6 @@ main {
   color: #02568A;
 }
 
-
 .img-perfil
 {
   width: 80%;
@@ -64,36 +64,54 @@ main {
   font-size: 1.7em;
 }
 
-#menu-lateral li
-{
-  padding: 5px;
-}
-
-#menu-lateral span
-{
-  margin: 0px 0px 0px 15px;
+.eyes{
+  padding-left: 1rem;
 }
 
 .dropdown-item:hover
 {
-  background-color: #007bff;
+  background-color:#02568A;
 }
+
+/* Cuentas*/
+
+#fila-cuentas 
+{
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.cuenta
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.monto
+{
+  font-size: xx-large;
+}
+
+.infocuenta
+{
+  color: rgb(200, 200, 200);
+  font-style: italic;
+}
+
+/* Ultimos movimientos*/
 
 #ultimos-movimientos
 {
   margin: 15px 15px 15px 0px;
 }
 
-.titulo-seccion
-{
-  margin: 30px 0px 0px 0px;
-  color: #02568A;
-}
-
 #ultimos-movimientos tbody
 {
   background: linear-gradient(to right, #ffffff, #51bafc70)
 }
+
+/* Contactos frecuentes*/
 
 #contactos-frecuentes
 {
