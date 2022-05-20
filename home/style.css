@@ -11,6 +11,10 @@ main {
   height: -webkit-fill-available;
   max-height: 100vh;
   overflow-x: auto;
+<<<<<<< Updated upstream
+=======
+  /* overflow-y: hidden; */
+>>>>>>> Stashed changes
 }
 
 #navtitle{
