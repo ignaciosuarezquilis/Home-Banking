@@ -48,6 +48,16 @@ main {
   color: #02568A;
 }
 
+
+.img-perfil{
+  width: 80%;
+}
+
+.campana{
+  font-size: 1.7em;
+}
+
+
 ul li
 {
   margin: 0px 0px 15px 0px;
