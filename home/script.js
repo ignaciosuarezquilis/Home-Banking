@@ -3,7 +3,7 @@ function mostrarResultados(informacion) {
   let dolaroficial = informacion[0].casa;
   let dolarblue = informacion[1].casa;
   let dolarMEP = informacion[4].casa;
-  let dolarturista = informacion[5].casa;
+  let dolarturista = informacion[6].casa;
   let dolarcontadoconliqui = informacion[3].casa;
 
   console.log(dolaroficial);
@@ -23,9 +23,8 @@ function mostrarResultados(informacion) {
   document.getElementById(
     "dolarturista"
   ).innerHTML = `${dolarturista.compra} / ${dolarturista.venta}`;
-  console.log(dolarcontadoconliqui);
   document.getElementById(
-    `dolarcontadoconliqui`
+    "dolarcontadoconliqui"
   ).innerHTML = `${dolarcontadoconliqui.compra} / ${dolarcontadoconliqui.venta}`;
 }
 
