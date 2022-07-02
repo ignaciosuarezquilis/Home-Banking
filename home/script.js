@@ -1,31 +1,31 @@
 function mostrarResultados(informacion) {
-  console.log(informacion);
-  let dolaroficial = informacion[0].casa;
-  let dolarblue = informacion[1].casa;
-  let dolarMEP = informacion[4].casa;
-  let dolarturista = informacion[6].casa;
-  let dolarcontadoconliqui = informacion[3].casa;
+  let dolares = [
+    "Dolar Oficial",
+    "Dolar Blue",
+    "Dolar Contado con Liqui",
+    "Dolar Bolsa",
+    "Dolar turista",
+  ];
 
-  console.log(dolaroficial);
-  document.getElementById(
-    "dolaroficial"
-  ).innerHTML = `${dolaroficial.compra} / ${dolaroficial.venta}`;
-  console.log(dolarblue);
-  document.getElementById(
-    "dolarblue"
-  ).innerHTML = `${dolarblue.compra} / ${dolarblue.venta}`;
-  console.log(dolarMEP);
-  document.getElementById(
-    `dolarMEP`
-  ).innerHTML = `${dolarMEP.compra} / ${dolarMEP.venta}`;
+  let diccionarioDeIds = {
+    "Dolar Oficial": "dolaroficial",
+    "Dolar Blue": "dolarblue",
+    "Dolar Bolsa": "dolarMEP",
+    "Dolar Contado con Liqui": "dolarcontadoconliqui",
+    "Dolar turista": "dolarturista",
+  };
 
-  console.log(dolarturista);
-  document.getElementById(
-    "dolarturista"
-  ).innerHTML = `${dolarturista.compra} / ${dolarturista.venta}`;
-  document.getElementById(
-    "dolarcontadoconliqui"
-  ).innerHTML = `${dolarcontadoconliqui.compra} / ${dolarcontadoconliqui.venta}`;
+  let cotizaciones = informacion
+    .map((info) => info.casa)
+    .filter((info) => dolares.includes(info.nombre));
+
+  cotizaciones.forEach((dolar) => {
+    let id = diccionarioDeIds[dolar.nombre];
+    if (id) {
+      let div = document.getElementById(id);
+      div.innerHTML = `${dolar.compra} / ${dolar.venta}`;
+    }
+  });
 }
 
 function consultaCotizaciones() {
