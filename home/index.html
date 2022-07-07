@@ -119,9 +119,77 @@
             <!-- Encabezado -->
             <nav class="navbar navbar-dark">
               <div class="navbar-nav navbar toggler-left">
-                <a class="btn fw-bold px-4" id="boton-ayuda" href="#">
+                <button type="button" class="btn btn-primary fw-bold px-4" id="boton-ayuda" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   Ayuda
-                </a>
+                </button>
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Estamos para ayudarte</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Pérdida o hurto
+                        </button>
+                        <hr>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                          Claves
+                        </button>
+                        <hr>
+                        <button class="btn btn-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                          Desconocer un consumo
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                          Comunicate con el Centro de Denuncias Visa o Mastercard, según corresponda:<br>
+
+                          Visa: 4379-3333, desde el exterior EEUU (s/cargo)  1-800-396-9665.<br>
+
+                          Otros (cobro revertido): 1-303-967-1098.<br>
+
+                          Mastercard: 4340-5700. En el interior: 0810-999-5700. En el exterior: (cobro revertido) 5411-4340-5656.<br>
+                        </div>
+                      </div>
+                      <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                          Para generar tu Usuario y Clave Digital ingresá en Banca Online y seguí los siguientes pasos:<br>
+
+                          Seleccioná "Registrarme".<br>
+                          Si estás desde una PC escaneá el código QR y continuá desde un celular.<br>
+                          Tendrás que sacar una foto del frente y dorso del dni y dos selfies<br>
+                          ¡Listo! El usuario deberá contener entre 6 y 20 letras, y la Clave Digital 8 dígitos alfanuméricos.<br>
+                          Si preferís continuar con otro método, se te solicitará contestes las preguntas referidas a tus productos o información que le brindaste al banco en algún momento, para corroborar tu identidad.<br>
+                        </div>
+                      </div>
+                      <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                          Para desconocer un gasto realizado con tu Tarjeta de Crédito, comunicate con la marca de la tarjeta a los siguientes teléfonos:<br>
+
+                          Visa<br>
+                          
+                          Classic: (011) 4379-3400 (CABA y GBA); Resto del país 0810-666-3400.<br>
+                          
+                          Gold: (011) 4378-4444 (CABA y GBA); Resto del país 0810-666-4653.<br>
+                          
+                          Platinum: 0-800-333-7528 | Signature: 0-800-222-7446.<br>
+                          
+                          Mastercard<br>
+                          
+                          Infoline (011) 4348-7000 | Gold Line (011) 4348-7007 | Platinum Line 0800-999-3999 | Black Line 0800-999-3297.<br>
+                          
+                          En mis movimientos de cuenta aparece un gasto de Tarjeta de Débito que no realicé<br>
+                          Para desconocer un gasto realizado con tu Tarjeta de Débito, comunicate con el Centro de Servicios Prisma 4379-3394 de 9 a 21 hs.<br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div class="navbar-nav navbar text-light">
