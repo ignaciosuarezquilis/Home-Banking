@@ -41,7 +41,7 @@
         >
           <!-- Logo -->
           <a
-            href="/"
+            href="../home/index.html"
             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
           >
             <svg class="bi pe-none me-2" width="40" height="32">
@@ -231,10 +231,15 @@
               </div>
 
               <div class="navbar toggler-right nav-item dropdown">
-                <a id="notifications" href="#">
+                <a class="btn nav-link dropdown-toggle" id="navbarDropdown notifications" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
                   <i class="fa-solid fa-bell text-light campana"></i>
                 </a>
-                <a class="btn nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><img src="images/image-jonathan.jpg" alt="" class="rounded-circle img-perfil"></a>
+                <ul class="dropdown-menu text-light bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-white">mostrar notificaciones</a></li>
+                </ul>
+                <a class="btn nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                  <img src="images/image-jonathan.jpg" alt="" class="rounded-circle img-perfil">
+                </a>
                 <ul class="dropdown-menu text-light bg-dark" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item text-white" href="../profile/profile.html">Ir a Mi Perfil</a></li>
                   <li><hr class="dropdown-divider"></li>

@@ -118,15 +118,15 @@ body {
 }
 
 .bio-graph-heading {
-    background: #fbc02d;
+    background: #D4AF37;
     color: #fff;
     text-align: center;
-    font-style: italic;
-    padding: 40px 110px;
-    border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-    font-size: 16px;
-    font-weight: 300;
+    font-style: sans-serif;
+    padding: 20px 110px;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    font-size: 24px;
+    font-weight: 100;
 }
 
 .bio-graph-info {
